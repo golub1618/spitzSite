@@ -1,0 +1,122 @@
+hr {
+    height: 3px;
+    border-color: #0094947c;
+    background-color: #0094947c;
+}
+
+h1 {
+    text-align: center;
+    color: #cd853f;
+}
+
+body {
+    background: #dddddd;
+    font-family: 'Arial';
+    margin: 0;
+}
+
+.topnavigation {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    justify-content: left;
+    display: flex;
+    background: #484863;
+    height: 20px;
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+h2 {
+    color: #cd853f;
+}
+
+.topnavigation a {
+    text-decoration: none;
+    color: #cd853f;
+    padding-top: 20px;
+    padding-bottom: 23px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.topnavigation a:hover {
+    color: #e0e0e0;
+    background: #1d1d29;
+}
+
+.topnavigation li {
+    padding-right: 50px;
+}
+
+.alignjustify{
+    text-align: justify;
+}
+
+li {
+    list-style-type: none;
+}
+
+.link-read-post{
+    text-align: right;
+}
+
+.link-read-post a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 0.5%;
+    text-decoration: none;
+    background: #08164d;
+    color: white;
+}
+
+.link-read-post a:hover {
+    color: #b1b1b1;
+    background: #060f36;
+}
+
+main {
+    margin-left: 180px;
+}
+
+.sidenavigation {
+    height: 100%;
+    width: 8.5%; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1d1d29 ;
+    overflow-x: hidden; 
+    padding-top: 40px;
+    margin-top: 60px;
+}
+
+
+.sidenavigation a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+}
+
+
+.sidenavigation a:hover {
+    color: #f1f1f1;
+}
+
+.foxman{
+    padding-right: 80%;
+    height: 150px;
+}
